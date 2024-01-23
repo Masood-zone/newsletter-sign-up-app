@@ -1,0 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: hsl(234, 29%, 20%);
+}
+
+.button-bg:hover {
+  transition: all ease-in-out 0.5s;
+  background-color: hsl(4, 100%, 67%);
+}
