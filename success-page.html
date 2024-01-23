@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Newsletter Page</title>
+    <link
+      rel="icon"
+      href="./images/favicon-32x32.png"
+      type="image/x-icon"
+      sizes="32x32"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div class="w-96 h-[400px] p-7 bg-white rounded-3xl m-auto mt-10">
+      <span class="block py-2 w-12">
+        <img src="./images/icon-success.svg" class="" />
+      </span>
+      <h1 class="text-5xl font-bold py-2">Thanks for subscribing!</h1>
+      <p class="py-5 text-sm">
+        A confirmation email has been sent to
+        <span id="user-email" class="font-bold"></span>. Please open it and
+        click the button inside to confirm your subscription.
+      </p>
+      <button
+        class="w-full text-white bg-slate-800 font-bold my-3 py-4 rounded-md"
+      >
+        Direct message
+      </button>
+    </div>
+
+    <script src="success.js"></script>
+  </body>
+</html>
